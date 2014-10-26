@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>York University Sunshine List</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script src="script/Chart.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <section>
+    <h3>York University Sunshine List</h3>
+    <header><img id="york-image" src="img/york-logo.jpg"></header>
+
+    <p>Every year the Canadian government makes public any individuals that receive government money that earn more than $100,000. As partially funded institutions by the government, universities and their staff and administration make up a large chunk of the Sunshine List.</p>
+
+    <p>This years 2014 disclosure of the 2013 salary year shows that <span class="bold">1596</span> York staff are earning more than $100,000 and are included on the Sunshine List.</p>
+
+    <h4>Top Earners at York University</h4>
+
+    <p>If we look at the top 3 earners at York University we can see below that their pay that their wages do fluctuate considerably. Looking at the top 10 earners at York University, <span class="bold">only 2 are women</span>.</p>
+
+    <img class="top" src="img/shoukri.jpg">
+    <p>Mamdouh Shoukri is the current president at York University. He earned <span class="bold">$478,405.95</span> in 2013. Among the top three, Shoukri's wage has stayed the most steady over the last 5 years.</p>
+
+    <img class="top" src="img/horvath.jpg">
+    <p>Dezso Horvath is the current dean at Schulich School of Business. He earned <span class="bold">$475,261.83</span> in 2013. He has held the position of dean since 1988, and serves on the York University Senate. In 2008 in was awarded the prestige of Order of Canada.</p>
+
+    <img class="top" src="img/mckellar.png">
+    <p>James McKellar is the Executive Director of External Relations at Schulich School of Business. McKellar is also a professors, teaching real estate. He earned <span class="bold">$375,203.55</span> in 2013. McKellar has seen his wage increase the most, fo the top three, increasing more than $100,000 in the last 5 years.</p>
+
+    <h5>Top Earners at York University (CND $)</h4>
+    <div style="margin:0 auto;padding:0;width:500px;height:400px">
+      <div>
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+
+    <ul>
+      <li id="one">Shoukri</li>
+      <li id="two">Horvath</li>
+      <li id="three">McKellar</li>
+    </ul>
+
+    <footer>See full table of York University list <a id="sunshine" href="sunshine-list/index.html">here</a></footer>
+
+  </section>
+  <script type="text/javascript" src="script/jquery.js"></script>
+  <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
